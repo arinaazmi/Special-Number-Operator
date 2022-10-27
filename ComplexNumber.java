@@ -55,7 +55,7 @@ public class ComplexNumber extends SpecialNumber implements Comparable<ComplexNu
 	public int compareTo(ComplexNumber other) {
 		double d1= Math.sqrt((real*real) + (imaginary*imaginary));
 		double d2= Math.sqrt((other.real*other.real) + (other.imaginary*other.imaginary));
-		if (d1<d1)
+		if (d1<d2)
 			return -1;
 		else if (d1==d2)
 			return 0;
